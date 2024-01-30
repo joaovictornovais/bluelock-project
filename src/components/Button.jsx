@@ -4,7 +4,7 @@ const Button = ({ children, color, fn, type }) => {
   return (
     <button
       type={type}
-      onClick={() => fn()}
+      onClick={(e) => fn(e.preventDefault())}
       className={
         color === "primary"
           ? "px-3 py-2 text-xs bg-blue-700 border-2 border-blue-700 text-zinc-100 rounded-md hover:bg-zinc-100 hover:text-blue-700 transition-colors"

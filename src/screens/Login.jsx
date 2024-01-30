@@ -16,7 +16,7 @@ const Login = () => {
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
 
-  const handleSignin = () => {
+  const handleSignin = (event) => {
     if (!email | !password) {
       setError("Preencha todos os campos");
     }
@@ -25,9 +25,9 @@ const Login = () => {
 
     if (res) {
       setError(res);
+    } else {
+      navigate("/home");
     }
-
-    navigate("/home");
   };
 
   useEffect(() => {
