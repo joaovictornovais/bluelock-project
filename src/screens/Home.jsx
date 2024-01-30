@@ -1,12 +1,9 @@
-import Button from "../components/Button";
-import useAuth from "../hooks/useAuth";
+import Header from "../components/Header";
 
 const Home = () => {
-  const { signout } = useAuth();
-
   return (
     <main>
-      <Button fn={() => signout()}>Sair</Button>
+      <Header />
     </main>
   );
 };
