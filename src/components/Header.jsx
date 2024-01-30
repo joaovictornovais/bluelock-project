@@ -3,10 +3,17 @@ import React from "react";
 import Button from "./Button";
 import useAuth from "../hooks/useAuth";
 
+import { useNavigate } from "react-router-dom";
+
 const Header = () => {
   const { signout } = useAuth();
+  const navigate = useNavigate();
 
   const items = ["Home", "Matches", "Players"];
+
+  const handleNavigate = (section) => {
+    navigate(`/${section.toLowerCase()}`);
+  };
 
   return (
     <header className="fixed w-full p-2 bg-zinc-100 shadow-md">
@@ -22,7 +29,7 @@ const Header = () => {
         </div>
         <ul className="flex gap-4 items-center font-semibold">
           {items.map((item) => (
-            <li key={item}>
+            <li key={item} onClick={() => handleNavigate(item)}>
               <a className="hover:text-blue-700 transition-all cursor-pointer">
                 {item}
               </a>

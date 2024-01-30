@@ -5,6 +5,9 @@ import Home from "../screens/Home";
 import Login from "../screens/Login";
 
 import useAuth from "../hooks/useAuth";
+import Matches from "../screens/Matches";
+import Players from "../screens/Players";
+import Header from "../components/Header";
 
 const RoutesApp = () => {
   const Private = ({ Item }) => {
@@ -16,9 +19,12 @@ const RoutesApp = () => {
     <BrowserRouter>
       <Fragment>
         <Routes>
+          <Route path="/login" element={<Login />} />
           <Route exact path="/" element={<Private Item={Home} />} />
           <Route path="/home" element={<Private Item={Home} />} />
-          <Route path="/login" element={<Login />} />
+
+          <Route exact path="/matches" element={<Private Item={Matches} />} />
+          <Route exact path="/players" element={<Private Item={Players} />} />
         </Routes>
       </Fragment>
     </BrowserRouter>
