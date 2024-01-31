@@ -16,7 +16,7 @@ const Header = () => {
   };
 
   return (
-    <header className="fixed w-full p-2 bg-zinc-100 shadow-md">
+    <header className="fixed w-full p-2 bg-zinc-100 shadow-md z-10">
       <nav className="flex items-center justify-between max-w-6xl mx-auto">
         <div className="flex gap-4 items-center">
           <img

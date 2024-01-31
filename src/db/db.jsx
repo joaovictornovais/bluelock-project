@@ -113,31 +113,26 @@ export const teams = [
   {
     id: 1,
     name: "Z",
-    image:
-      "https://staticg.sportskeeda.com/editor/2022/11/e89c4-16690084630770-1920.jpg",
+    image: "/src/assets/teams/Team-Z.jpg",
   },
   {
     id: 2,
     name: "Y",
-    image:
-      "https://m.media-amazon.com/images/S/pv-target-images/e67f8f729e528af568e6c559dfb7689093a974440d959820c5c7383baf1bd0bc.jpg",
+    image: "/src/assets/teams/Team-Y.jpg",
   },
   {
     id: 3,
     name: "X",
-    image:
-      "https://inasianspaces.files.wordpress.com/2022/10/blue-lock-episode-2-team-x.png?w=1024",
+    image: "/src/assets/teams/Team-X.jpg",
   },
   {
     id: 4,
     name: "W",
-    image:
-      "https://metagalaxia.com.br/wp-content/uploads/2022/11/Blue-Lock-3.webp",
+    image: "/src/assets/teams/Team-W.jpg",
   },
   {
     id: 5,
     name: "V",
-    image:
-      "https://i.pinimg.com/736x/16/c5/09/16c509e895b2e20788f2a64ed15adbd3.jpg",
+    image: "/src/assets/teams/Team-V.jpg",
   },
 ];
