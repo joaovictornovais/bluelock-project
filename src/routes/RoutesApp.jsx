@@ -7,7 +7,6 @@ import Login from "../screens/Login";
 import useAuth from "../hooks/useAuth";
 import Matches from "../screens/Matches";
 import Players from "../screens/Players";
-import Header from "../components/Header";
 
 const RoutesApp = () => {
   const Private = ({ Item }) => {

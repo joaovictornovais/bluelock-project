@@ -30,10 +30,14 @@ export const AuthProvider = ({ children }) => {
         setUser({ email, password });
         return;
       } else {
-        return "E-mail ou senha incorretos";
+        console.log("E-mail: ego@bluelock.com");
+        console.log("Senha: 123456");
+        return "E-mail ou senha incorretos (E-mail e senha estão no console/repositório!)";
       }
     } else {
-      return "Usuário não cadastrado";
+      console.log("E-mail: ego@bluelock.com");
+      console.log("Senha: 123456");
+      return "Usuário não cadastrado (E-mail e senha estão no console/repositório!)";
     }
   };
 

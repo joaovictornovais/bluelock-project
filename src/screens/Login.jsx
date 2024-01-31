@@ -37,7 +37,7 @@ const Login = () => {
 
   return (
     <section className="flex flex-col items-center justify-center h-screen bg-zinc-100">
-      <form className="flex flex-col gap-4 items-center p-4">
+      <form className="flex flex-col gap-4 items-center p-4 text-center">
         <img
           src="src/assets/logo-bluelock.png"
           alt="Logo BlueLock"
