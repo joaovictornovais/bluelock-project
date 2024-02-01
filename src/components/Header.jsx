@@ -20,7 +20,7 @@ const Header = () => {
       <nav className="flex items-center justify-center sm:justify-between max-w-6xl mx-auto">
         <div className="flex gap-4 items-center">
           <img
-            src="/src/assets/profile-ego.jpg"
+            src="https://static1.personality-database.com/profile_images/dbb648a1b4554cb68f54b7a5e9a2cf34.png"
             className="h-16 rounded-full border-2 border-blue-700 hidden sm:inline"
           />
           <p className="font-semibold text-blue-700 hidden sm:inline">
