@@ -94,6 +94,94 @@ export const players = [
     image:
       "https://i.pinimg.com/736x/b2/8b/c5/b28bc50502d0763d98eaf28f8aff693f.jpg",
   },
+  {
+    id: 13,
+    name: "Zantetsu Tsurugi",
+    team: "V",
+    rank: 241,
+    image:
+      "https://i.pinimg.com/736x/a2/ff/56/a2ff56de088bc0f3d6dbc1216bc6ab60.jpg",
+  },
+  {
+    id: 14,
+    name: "Reo Mikage",
+    team: "V",
+    rank: 250,
+    image:
+      "https://i.pinimg.com/736x/79/77/9e/79779e7e02102f326a0492e037b38d2c.jpg",
+  },
+  {
+    id: 15,
+    name: "Seishiro Nagi",
+    team: "V",
+    rank: 251,
+    image:
+      "https://i.pinimg.com/550x/bf/1e/aa/bf1eaa06ccf54e4f0daa24735e0c363b.jpg",
+  },
+  {
+    id: 16,
+    name: "Sota Nemoto",
+    team: "V",
+    rank: 232,
+    image:
+      "https://static.wikia.nocookie.net/bluelock/images/6/67/Sota_Nemoto_%28Anime%29.png/revision/latest?cb=20230605213148",
+  },
+  {
+    id: 17,
+    name: "Shuhei Ebina",
+    team: "V",
+    rank: 225,
+    image:
+      "https://static.wikia.nocookie.net/bluelock/images/7/71/Shuhei_Ebina_%28Anime%29.png/revision/latest?cb=20230605183921",
+  },
+  {
+    id: 18,
+    name: "Masumi Atatame",
+    team: "V",
+    rank: 226,
+    image:
+      "https://static.wikia.nocookie.net/bluelock/images/7/7e/Masumi_Atatame_%28Anime%29.png/revision/latest/scale-to-width/360?cb=20230605183945",
+  },
+  {
+    id: 19,
+    name: "Kisaburo Hijikata",
+    team: "V",
+    rank: 231,
+    image:
+      "https://static.wikia.nocookie.net/bluelock/images/6/65/Kisaburo_Hijikata_%28Anime%29.png/revision/latest?cb=20230605184011",
+  },
+  {
+    id: 20,
+    name: "Kanji Torikai",
+    team: "V",
+    rank: 227,
+    image:
+      "https://static.wikia.nocookie.net/bluelock/images/e/ed/Kanji_Torikai_%28Anime%29.png/revision/latest?cb=20230605184045",
+  },
+  {
+    id: 21,
+    name: "Hirakazu Midorikawa",
+    team: "V",
+    rank: 228,
+    image:
+      "https://static.wikia.nocookie.net/bluelock/images/3/3d/Hirakazu_Midorikawa_%28Anime%29.png/revision/latest?cb=20230605213157",
+  },
+  {
+    id: 22,
+    name: "Retsu Nerima",
+    team: "V",
+    rank: 230,
+    image:
+      "https://static.wikia.nocookie.net/bluelock/images/3/30/Retsu_Nerima_%28Anime%29.png/revision/latest?cb=20230605184150",
+  },
+  {
+    id: 23,
+    name: "Rikiya Hohai",
+    team: "V",
+    rank: 229,
+    image:
+      "https://static.wikia.nocookie.net/bluelock/images/7/71/Rikiya_Hohai_%28Anime%29.png/revision/latest?cb=20230605184226",
+  },
 ];
 
 export const teams = [
