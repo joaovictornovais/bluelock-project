@@ -99,15 +99,15 @@ export const players = [
 export const teams = [
   {
     id: 1,
-    name: "Z",
+    name: "V",
     image:
-      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtBNPWpRrMasIpWOFeqIXvhY9BAeeVllqR-0VPLtwGdbZlikeDD29CjN76fYWs-I04cgDAtwtWpkxOw-UOZdifnKvUgKogXvVKSMrHYHJ1-LuyrM6lVIAus5cDo85vg5XP7-P2-cthCJjtHSv-l_0dnOJTjb9niSrCf0IFWdawsZMuUJL7djF88_rx-Z6n/w1200-h630-p-k-no-nu/Os%20jogadores%20e%20times%20aprovados%20no%20Projeto%20Blue%20Lock.png",
+      "https://i.pinimg.com/736x/0a/fc/10/0afc105e002089f3eccb926ddc19eb4f.jpg",
   },
   {
     id: 2,
-    name: "Y",
+    name: "W",
     image:
-      "https://staticg.sportskeeda.com/editor/2022/11/a7871-16674654686318-1920.jpg",
+      "https://metagalaxia.com.br/wp-content/uploads/2022/11/Blue-Lock-3.webp",
   },
   {
     id: 3,
@@ -117,14 +117,14 @@ export const teams = [
   },
   {
     id: 4,
-    name: "W",
+    name: "Y",
     image:
-      "https://metagalaxia.com.br/wp-content/uploads/2022/11/Blue-Lock-3.webp",
+      "https://staticg.sportskeeda.com/editor/2022/11/a7871-16674654686318-1920.jpg",
   },
   {
     id: 5,
-    name: "V",
+    name: "Z",
     image:
-      "https://i.pinimg.com/736x/0a/fc/10/0afc105e002089f3eccb926ddc19eb4f.jpg",
+      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtBNPWpRrMasIpWOFeqIXvhY9BAeeVllqR-0VPLtwGdbZlikeDD29CjN76fYWs-I04cgDAtwtWpkxOw-UOZdifnKvUgKogXvVKSMrHYHJ1-LuyrM6lVIAus5cDo85vg5XP7-P2-cthCJjtHSv-l_0dnOJTjb9niSrCf0IFWdawsZMuUJL7djF88_rx-Z6n/w1200-h630-p-k-no-nu/Os%20jogadores%20e%20times%20aprovados%20no%20Projeto%20Blue%20Lock.png",
   },
 ];
