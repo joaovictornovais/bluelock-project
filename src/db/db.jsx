@@ -120,67 +120,146 @@ export const players = [
   },
   {
     id: 16,
-    name: "Sota Nemoto",
+    name: "Souta Nemoto",
     team: "V",
     rank: 232,
-    image:
-      "https://static.wikia.nocookie.net/bluelock/images/6/67/Sota_Nemoto_%28Anime%29.png/revision/latest?cb=20230605213148",
+    image: "https://cdn.myanimelist.net/images/characters/4/515831.jpg",
   },
   {
     id: 17,
-    name: "Shuhei Ebina",
+    name: "Shuuhei Ebina",
     team: "V",
     rank: 225,
-    image:
-      "https://static.wikia.nocookie.net/bluelock/images/7/71/Shuhei_Ebina_%28Anime%29.png/revision/latest?cb=20230605183921",
+    image: "https://cdn.myanimelist.net/images/characters/10/515835.jpg",
   },
   {
     id: 18,
     name: "Masumi Atatame",
     team: "V",
-    rank: 226,
-    image:
-      "https://static.wikia.nocookie.net/bluelock/images/7/7e/Masumi_Atatame_%28Anime%29.png/revision/latest/scale-to-width/360?cb=20230605183945",
+    rank: 224,
+    image: "https://cdn.myanimelist.net/images/characters/4/515836.jpg",
   },
   {
     id: 19,
-    name: "Kisaburo Hijikata",
+    name: "Kisaburou Hijikata",
     team: "V",
-    rank: 231,
-    image:
-      "https://static.wikia.nocookie.net/bluelock/images/6/65/Kisaburo_Hijikata_%28Anime%29.png/revision/latest?cb=20230605184011",
+    rank: 228,
+    image: "https://cdn.myanimelist.net/images/characters/16/515839.jpg",
   },
   {
     id: 20,
     name: "Kanji Torikai",
     team: "V",
     rank: 227,
-    image:
-      "https://static.wikia.nocookie.net/bluelock/images/e/ed/Kanji_Torikai_%28Anime%29.png/revision/latest?cb=20230605184045",
+    image: "https://cdn.myanimelist.net/images/characters/11/515840.jpg",
   },
   {
     id: 21,
     name: "Hirakazu Midorikawa",
     team: "V",
-    rank: 228,
-    image:
-      "https://static.wikia.nocookie.net/bluelock/images/3/3d/Hirakazu_Midorikawa_%28Anime%29.png/revision/latest?cb=20230605213157",
+    rank: 231,
+    image: "https://cdn.myanimelist.net/images/characters/5/515841.jpg",
   },
   {
     id: 22,
     name: "Retsu Nerima",
     team: "V",
     rank: 230,
-    image:
-      "https://static.wikia.nocookie.net/bluelock/images/3/30/Retsu_Nerima_%28Anime%29.png/revision/latest?cb=20230605184150",
+    image: "https://cdn.myanimelist.net/images/characters/4/515842.jpg",
   },
   {
     id: 23,
     name: "Rikiya Hohai",
     team: "V",
     rank: 229,
+    image: "https://cdn.myanimelist.net/images/characters/13/515843.jpg",
+  },
+  {
+    id: 24,
+    name: "Keisuke Wanima",
+    team: "W",
+    rank: 232,
     image:
-      "https://static.wikia.nocookie.net/bluelock/images/7/71/Rikiya_Hohai_%28Anime%29.png/revision/latest?cb=20230605184226",
+      "https://i.pinimg.com/564x/aa/62/29/aa62290b1016ce1f2d04f180019e9c03.jpg",
+  },
+  {
+    id: 25,
+    name: "Junichi Wanima",
+    team: "W",
+    rank: 233,
+    image:
+      "https://i.pinimg.com/564x/6f/6f/ee/6f6feeaf4685fa618ca030feb871002b.jpg",
+  },
+  {
+    id: 26,
+    name: "Kei Shishiya",
+    team: "W",
+    rank: 236,
+    image: "https://cdn.myanimelist.net/images/characters/3/516039.jpg",
+  },
+  {
+    id: 27,
+    name: "Hiromu Munakata",
+    team: "W",
+    rank: 235,
+    image: "https://cdn.myanimelist.net/images/characters/14/516040.jpg",
+  },
+  {
+    id: 28,
+    name: "Yusei Amazora",
+    team: "W",
+    rank: 234,
+    image: "https://cdn.myanimelist.net/images/characters/3/516047.jpg",
+  },
+  {
+    id: 29,
+    name: "Takuma Isezaki",
+    team: "W",
+    rank: 239,
+    image: "https://cdn.myanimelist.net/images/characters/7/516035.jpg",
+  },
+  {
+    id: 30,
+    name: "Raito Fuwa",
+    team: "W",
+    rank: 238,
+    image: "https://cdn.myanimelist.net/images/characters/16/516037.jpg",
+  },
+  {
+    id: 31,
+    name: "Noboru Jigen",
+    team: "W",
+    rank: 237,
+    image: "https://cdn.myanimelist.net/images/characters/3/516038.jpg",
+  },
+  {
+    id: 32,
+    name: "Koki Mera",
+    team: "W",
+    rank: 242,
+    image: "https://cdn.myanimelist.net/images/characters/3/516038.jpg",
+  },
+  {
+    id: 33,
+    name: "Kai Tokita",
+    team: "W",
+    rank: 241,
+    image: "https://cdn.myanimelist.net/images/characters/15/515930.jpg",
+  },
+  {
+    id: 34,
+    name: "Yuujin Koshinaka",
+    team: "W",
+    rank: 240,
+    image: "https://cdn.myanimelist.net/images/characters/16/516022.jpg",
+  },
+  {
+    id: 35,
+    name: "Shouei Baro",
+    team: "X",
+    rank: 249,
+    image:
+      "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e50b6934-bd0a-4911-b564-06c6526e6447/width=700/00050-67487869-(masterpiece,%20best%20quality_1.2),%20,%20solo,%20male%20focus,%201boy,%20barou%20shoei,%20unamused,%20looking%20at%20viewer,%20sportswear.jpeg",
   },
 ];
 
