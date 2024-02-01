@@ -26,7 +26,7 @@ const Login = () => {
     if (res) {
       setError(res);
     } else {
-      navigate("/home");
+      navigate("/times");
     }
   };
 
@@ -50,7 +50,7 @@ const Login = () => {
           </div>
           <div className="flex items-center gap-2">
             <FaLock />
-            <Input placeholder="Password" type="password" fn={setPassword} />
+            <Input placeholder="Senha" type="password" fn={setPassword} />
           </div>
           <ErrorMessage>{error}</ErrorMessage>
           <Button color="primary" fn={() => handleSignin()} type="submit">

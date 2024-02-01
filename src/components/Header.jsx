@@ -9,7 +9,7 @@ const Header = () => {
   const { signout } = useAuth();
   const navigate = useNavigate();
 
-  const items = ["Home", "Matches", "Players"];
+  const items = ["Times", "Partidas", "Jogadores"];
 
   const handleNavigate = (section) => {
     navigate(`/${section.toLowerCase()}`);
@@ -17,11 +17,11 @@ const Header = () => {
 
   return (
     <header className="fixed w-full p-2 bg-zinc-100 shadow-md z-10">
-      <nav className="flex items-center justify-between max-w-6xl mx-auto">
+      <nav className="flex items-center justify-center sm:justify-between max-w-6xl mx-auto">
         <div className="flex gap-4 items-center">
           <img
             src="/src/assets/profile-ego.jpg"
-            className="h-16 rounded-full border-2 border-blue-700"
+            className="h-16 rounded-full border-2 border-blue-700 hidden sm:inline"
           />
           <p className="font-semibold text-blue-700 hidden sm:inline">
             Jinpachi Ego
@@ -35,7 +35,7 @@ const Header = () => {
               </a>
             </li>
           ))}
-          <Button fn={() => signout()}>Logout</Button>
+          <Button fn={() => signout()}>Sair</Button>
         </ul>
       </nav>
     </header>

@@ -11,7 +11,7 @@ const TeamCard = ({ team, image }) => {
         <div className="absolute inset-0 bg-gradient-to-t from-blue-700/70 from-10%% to-transparent" />
       </div>
       <p className="absolute bottom-4 text-2xl text-zinc-100 font-semibold left-1/2 transform translate-x-[-50%] drop-shadow-2xl bg-white/10 rounded-full px-4 py-2 backdrop-filter backdrop-blur">
-        Team {team}
+        Time {team}
       </p>
     </div>
   );
