@@ -2,7 +2,6 @@ export const players = [
   {
     id: 1,
     name: "Asahi Naruhaya",
-    icon: "https://static.wikia.nocookie.net/bluelock/images/8/89/Asahi_Naruhaya.png/revision/latest/scale-to-width-down/130?cb=20191027141712",
     team: "Z",
     rank: 258,
     image:
@@ -11,7 +10,6 @@ export const players = [
   {
     id: 2,
     name: "Gin Gagamaru",
-    icon: "https://static.wikia.nocookie.net/bluelock/images/7/79/Gin_Gagamaru.png/revision/latest/scale-to-width-down/130?cb=20191027115106",
     team: "Z",
     rank: 296,
     image: "https://pbs.twimg.com/media/FuMkUSmXoAAJqjL.jpg",
@@ -19,7 +17,6 @@ export const players = [
   {
     id: 3,
     name: "Gurimu Igarashi",
-    icon: "https://static.wikia.nocookie.net/bluelock/images/a/aa/Gurimu_Igarashi.png/revision/latest/scale-to-width-down/130?cb=20191027123656",
     team: "Z",
     rank: 300,
     image:
@@ -28,7 +25,6 @@ export const players = [
   {
     id: 4,
     name: "Hyoma Chigiri",
-    icon: "https://static.wikia.nocookie.net/bluelock/images/f/f5/Hyoma_Chigiri.png/revision/latest/scale-to-width-down/130?cb=20221203160214",
     team: "Z",
     rank: 292,
     image:
@@ -37,7 +33,6 @@ export const players = [
   {
     id: 5,
     name: "Jingo Raichi",
-    icon: "https://static.wikia.nocookie.net/bluelock/images/5/5c/Jingo_Raichi.png/revision/latest/scale-to-width-down/130?cb=20191027105206",
     team: "Z",
     rank: 294,
     image:
@@ -46,7 +41,6 @@ export const players = [
   {
     id: 6,
     name: "Meguru Bachira",
-    icon: "https://static.wikia.nocookie.net/bluelock/images/f/f5/Meguru_Bachira.png/revision/latest/scale-to-width-down/130?cb=20221203161437",
     team: "Z",
     rank: 290,
     image:
@@ -55,7 +49,6 @@ export const players = [
   {
     id: 7,
     name: "Okuhito Iemon",
-    icon: "https://static.wikia.nocookie.net/bluelock/images/8/83/Okuhito_Iemon.png/revision/latest/scale-to-width-down/130?cb=20191027104730",
     team: "Z",
     rank: 298,
     image:
@@ -64,7 +57,6 @@ export const players = [
   {
     id: 8,
     name: "Rensuke Kunigami",
-    icon: "https://static.wikia.nocookie.net/bluelock/images/8/87/Rensuke_Kunigami.png/revision/latest/scale-to-width-down/130?cb=20230624221938",
     team: "Z",
     rank: 291,
     image:
@@ -73,7 +65,6 @@ export const players = [
   {
     id: 9,
     name: "Wataru Kuon",
-    icon: "https://static.wikia.nocookie.net/bluelock/images/e/ed/Wataru_Kuon.png/revision/latest/scale-to-width-down/130?cb=20191027123530",
     team: "Z",
     rank: 293,
     image:
@@ -82,7 +73,6 @@ export const players = [
   {
     id: 10,
     name: "Yoichi Isagi",
-    icon: "https://static.wikia.nocookie.net/bluelock/images/3/39/Yoichi_Isagi.png/revision/latest/scale-to-width-down/130?cb=20221204031631",
     team: "Z",
     rank: 299,
     image:
@@ -91,7 +81,6 @@ export const players = [
   {
     id: 11,
     name: "Yudai Inamura",
-    icon: "https://static.wikia.nocookie.net/bluelock/images/2/2e/Yudai_Imamura.png/revision/latest/scale-to-width-down/130?cb=20191027114353",
     team: "Z",
     rank: 295,
     image:
@@ -100,7 +89,6 @@ export const players = [
   {
     id: 12,
     name: "Ryosuke Kira",
-    icon: "https://static.wikia.nocookie.net/bluelock/images/b/b1/Ryosuke_Kira.png/revision/latest/scale-to-width-down/130?cb=20191027101038",
     team: "Z",
     rank: 289,
     image:

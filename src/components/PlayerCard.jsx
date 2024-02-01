@@ -1,11 +1,6 @@
-import React, { useEffect } from "react";
-
 const PlayerCard = ({ name, image, rank }) => {
-  useEffect(() => {
-    console.log(image);
-  }, []);
   return (
-    <div className="flex flex-col gap-2 text-center justify-center items-center">
+    <div className="flex flex-col gap-1 text-center justify-center items-center">
       <img
         src={image}
         alt={name}
