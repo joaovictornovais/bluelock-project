@@ -448,4 +448,17 @@ export const teams = [
       "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtBNPWpRrMasIpWOFeqIXvhY9BAeeVllqR-0VPLtwGdbZlikeDD29CjN76fYWs-I04cgDAtwtWpkxOw-UOZdifnKvUgKogXvVKSMrHYHJ1-LuyrM6lVIAus5cDo85vg5XP7-P2-cthCJjtHSv-l_0dnOJTjb9niSrCf0IFWdawsZMuUJL7djF88_rx-Z6n/w1200-h630-p-k-no-nu/Os%20jogadores%20e%20times%20aprovados%20no%20Projeto%20Blue%20Lock.png",
     selection: "first",
   },
+  {
+    id: 6,
+    name: "Branco",
+    image:
+      "https://inasianspaces.files.wordpress.com/2023/01/blue-lock-ep-13-team-white-losing-to-itoshi-rin.png?w=1024",
+    selection: "second",
+  },
+  {
+    id: 6,
+    name: "Vermelho",
+    image: "https://pbs.twimg.com/media/Fnk83LKaYAouAaL.jpg:large",
+    selection: "second",
+  },
 ];

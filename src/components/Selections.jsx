@@ -8,9 +8,10 @@ const Selections = ({ children, selection }) => {
   });
 
   const handlePlayersAmount = () => {
-    const selectionPlayers = players.map((player) =>
-      player.team.at(selectionTeams)
+    const selectionPlayers = players.filter((player) =>
+      selectionTeams.includes(player.team)
     );
+
     return selectionPlayers.length;
   };
 
@@ -23,6 +24,8 @@ const Selections = ({ children, selection }) => {
 
     return [rankings[0], rankings[rankings.length - 1]];
   };
+
+  console.log(handlePlayersAmount());
 
   return (
     <div className="flex flex-col gap-2">

@@ -1,6 +1,6 @@
 import React from "react";
 
-const TeamCard = ({ team, image }) => {
+const TeamCard = ({ team, image, selection }) => {
   return (
     <div className="relative inline-block cursor-pointer">
       <div className="h-[230px] w-full relative rounded-xl overflow-hidden group">
