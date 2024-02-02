@@ -122,7 +122,7 @@ export const players = [
     id: 16,
     name: "Souta Nemoto",
     team: "V",
-    rank: 232,
+    rank: 226,
     image: "https://cdn.myanimelist.net/images/characters/4/515831.jpg",
   },
   {
@@ -243,7 +243,7 @@ export const players = [
     id: 33,
     name: "Kai Tokita",
     team: "W",
-    rank: 241,
+    rank: 248,
     image: "https://cdn.myanimelist.net/images/characters/15/515930.jpg",
   },
   {
@@ -286,7 +286,7 @@ export const players = [
     id: 39,
     name: "Kousei Outsuka",
     team: "X",
-    rank: 249,
+    rank: 266,
     image: "https://cdn.myanimelist.net/images/characters/14/515893.jpg",
   },
   {
@@ -321,14 +321,14 @@ export const players = [
     id: 44,
     name: "Hatto Meiji",
     team: "X",
-    rank: 251,
+    rank: 267,
     image: "https://cdn.myanimelist.net/images/characters/5/515891.jpg",
   },
   {
     id: 45,
     name: "Yawara Banku",
     team: "X",
-    rank: 249,
+    rank: 265,
     image: "https://cdn.myanimelist.net/images/characters/2/515892.jpg",
   },
   {
@@ -351,7 +351,7 @@ export const players = [
     id: 48,
     name: "Ashime Suzuki",
     team: "Y",
-    rank: 258,
+    rank: 268,
     image: "https://cdn.myanimelist.net/images/characters/16/515882.jpg",
   },
   {

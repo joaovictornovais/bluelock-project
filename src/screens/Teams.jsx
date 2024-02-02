@@ -2,9 +2,15 @@ import { Link } from "react-router-dom";
 import Header from "../components/Header";
 import TeamCard from "../components/TeamCard";
 
-import { teams } from "../db/db";
+import { teams, players } from "../db/db";
+import { useEffect } from "react";
 
 const Teams = () => {
+  useEffect(() => {
+    const ranking = players.map((player) => player.rank);
+    console.log(ranking + "");
+  }, []);
+
   return (
     <main>
       <Header />
