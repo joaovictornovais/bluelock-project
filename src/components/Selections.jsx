@@ -25,8 +25,6 @@ const Selections = ({ children, selection }) => {
     return [rankings[0], rankings[rankings.length - 1]];
   };
 
-  console.log(handlePlayersAmount());
-
   return (
     <div className="flex flex-col gap-2">
       <h2 className="font-bold text-2xl lg:text-4xl">{children}</h2>

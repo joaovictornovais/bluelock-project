@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import Header from "../components/Header";
 import TeamCard from "../components/TeamCard";
 
@@ -18,12 +17,13 @@ const Teams = () => {
       <Header />
       <div className="pt-[80px]">
         <div className="flex flex-col gap-4">
-          <div className="grid grid-cols-5 max-w-7xl mx-auto p-6 gap-4">
+          <div className="grid grid-cols-6 max-w-7xl mx-auto p-6 gap-4">
             <Selections selection="first">Primeira Seleção</Selections>
-            <div className="col-span-4">
-              <div className="grid grid-cols-3 gap-4">
+            <div className="col-span-5">
+              <div className="grid grid-cols-3 gap-4 ">
                 {handleTeamsSelection("first").map((team) => (
                   <TeamCard
+                    onClick={() => handleNavigateTeamPage(team.name)}
                     key={team.id}
                     selection={team.selection}
                     image={team.image}
@@ -32,6 +32,22 @@ const Teams = () => {
                 ))}
               </div>
             </div>
+          </div>
+          <div className="grid grid-cols-5 max-w-7xl mx-auto p-6 gap-4">
+            <div className="col-span-4">
+              <div className="grid grid-cols-3 gap-4">
+                {handleTeamsSelection("second").map((team) => (
+                  <TeamCard
+                    onClick={() => handleNavigateTeamPage(team.name)}
+                    key={team.id}
+                    selection={team.selection}
+                    image={team.image}
+                    team={team.name}
+                  />
+                ))}
+              </div>
+            </div>
+            <Selections selection="second">Segunda Seleção</Selections>
           </div>
         </div>
       </div>
