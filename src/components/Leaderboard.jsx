@@ -25,9 +25,9 @@ const Leaderboard = ({ selection }) => {
           <th className="border border-slate-300">Pontos</th>
         </tr>
       </thead>
-      <tbody className="">
+      <tbody>
         {teams.map((team, i) => (
-          <tr key={i} className={i < 2 ? "bg-green-200" : "bg-red-100"}>
+          <tr key={i} className={team.qualed ? "bg-green-200" : "bg-red-100"}>
             <td className="border border-slate-300">{team.name}</td>
             <td className="border border-slate-300">{team.wins}</td>
             <td className="border border-slate-300">{team.loses}</td>
