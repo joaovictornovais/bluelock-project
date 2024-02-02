@@ -3,10 +3,10 @@ import React from "react";
 const TeamCard = ({ team, image, selection }) => {
   return (
     <div className="relative inline-block cursor-pointer">
-      <div className="h-[230px] w-full relative rounded-xl overflow-hidden group">
+      <div className="h-[230px] max-w-[400px] relative rounded-xl overflow-hidden group">
         <img
           src={image}
-          className="h-full w-full object-cover group-hover:scale-110 transition-all duration-200"
+          className="h-full max-w-[400px] object-cover group-hover:scale-110 transition-all duration-200"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-blue-700/70 from-10%% to-transparent" />
       </div>
