@@ -261,6 +261,76 @@ export const players = [
     image:
       "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e50b6934-bd0a-4911-b564-06c6526e6447/width=700/00050-67487869-(masterpiece,%20best%20quality_1.2),%20,%20solo,%20male%20focus,%201boy,%20barou%20shoei,%20unamused,%20looking%20at%20viewer,%20sportswear.jpeg",
   },
+  {
+    id: 36,
+    name: "Yuuza Dokomo",
+    team: "X",
+    rank: 245,
+    image: "https://cdn.myanimelist.net/images/characters/4/515920.jpg",
+  },
+  {
+    id: 37,
+    name: "Burai Daidou",
+    team: "X",
+    rank: 244,
+    image: "https://cdn.myanimelist.net/images/characters/4/515921.jpg",
+  },
+  {
+    id: 38,
+    name: "Rian Sanga",
+    team: "X",
+    rank: 243,
+    image: "https://cdn.myanimelist.net/images/characters/3/515922.jpg",
+  },
+  {
+    id: 39,
+    name: "Kousei Outsuka",
+    team: "X",
+    rank: 249,
+    image: "https://cdn.myanimelist.net/images/characters/14/515893.jpg",
+  },
+  {
+    id: 40,
+    name: "Ruto Koura",
+    team: "X",
+    rank: 247,
+    image: "https://cdn.myanimelist.net/images/characters/11/515913.jpg",
+  },
+  {
+    id: 41,
+    name: "Daiya Morinaga",
+    team: "X",
+    rank: 246,
+    image: "https://cdn.myanimelist.net/images/characters/7/515914.jpg",
+  },
+  {
+    id: 42,
+    name: "Chihiro Ezaki",
+    team: "X",
+    rank: 253,
+    image: "https://cdn.myanimelist.net/images/characters/12/515888.jpg",
+  },
+  {
+    id: 43,
+    name: "Tsukoteru Eiyu",
+    team: "X",
+    rank: 252,
+    image: "https://cdn.myanimelist.net/images/characters/14/515889.jpg",
+  },
+  {
+    id: 44,
+    name: "Hatto Meiji",
+    team: "X",
+    rank: 251,
+    image: "https://cdn.myanimelist.net/images/characters/5/515891.jpg",
+  },
+  {
+    id: 45,
+    name: "Yawara Banku",
+    team: "X",
+    rank: 249,
+    image: "https://cdn.myanimelist.net/images/characters/2/515892.jpg",
+  },
 ];
 
 export const teams = [
