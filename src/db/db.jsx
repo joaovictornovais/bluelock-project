@@ -418,29 +418,34 @@ export const teams = [
     name: "V",
     image:
       "https://i.pinimg.com/736x/0a/fc/10/0afc105e002089f3eccb926ddc19eb4f.jpg",
+    selection: "first",
   },
   {
     id: 2,
     name: "W",
     image:
       "https://metagalaxia.com.br/wp-content/uploads/2022/11/Blue-Lock-3.webp",
+    selection: "first",
   },
   {
     id: 3,
     name: "X",
     image:
       "https://inasianspaces.files.wordpress.com/2022/10/blue-lock-episode-2-team-x.png?w=1024",
+    selection: "first",
   },
   {
     id: 4,
     name: "Y",
     image:
       "https://staticg.sportskeeda.com/editor/2022/11/a7871-16674654686318-1920.jpg",
+    selection: "first",
   },
   {
     id: 5,
     name: "Z",
     image:
       "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtBNPWpRrMasIpWOFeqIXvhY9BAeeVllqR-0VPLtwGdbZlikeDD29CjN76fYWs-I04cgDAtwtWpkxOw-UOZdifnKvUgKogXvVKSMrHYHJ1-LuyrM6lVIAus5cDo85vg5XP7-P2-cthCJjtHSv-l_0dnOJTjb9niSrCf0IFWdawsZMuUJL7djF88_rx-Z6n/w1200-h630-p-k-no-nu/Os%20jogadores%20e%20times%20aprovados%20no%20Projeto%20Blue%20Lock.png",
+    selection: "first",
   },
 ];
