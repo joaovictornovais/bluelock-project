@@ -331,6 +331,85 @@ export const players = [
     rank: 249,
     image: "https://cdn.myanimelist.net/images/characters/2/515892.jpg",
   },
+  {
+    id: 46,
+    name: "Hibiki Okawa",
+    team: "Y",
+    rank: 254,
+    image:
+      "https://i.pinimg.com/736x/72/41/dc/7241dce2ae3efe9d92a3ce0a01814cbb.jpg",
+  },
+  {
+    id: 47,
+    name: "Ikki Niko",
+    team: "Y",
+    rank: 255,
+    image:
+      "https://i.pinimg.com/736x/43/be/5e/43be5eb3d35bff6c598d0b1813c198f1.jpg",
+  },
+  {
+    id: 48,
+    name: "Ashime Suzuki",
+    team: "Y",
+    rank: 258,
+    image: "https://cdn.myanimelist.net/images/characters/16/515882.jpg",
+  },
+  {
+    id: 49,
+    name: "Hyuuga Koshiba",
+    team: "Y",
+    rank: 257,
+    image: "https://cdn.myanimelist.net/images/characters/3/515885.jpg",
+  },
+  {
+    id: 50,
+    name: "Mareto Takeyama",
+    team: "Y",
+    rank: 256,
+    image: "https://cdn.myanimelist.net/images/characters/5/515883.jpg",
+  },
+  {
+    id: 51,
+    name: "Soushi Kagura",
+    team: "Y",
+    rank: 261,
+    image: "https://cdn.myanimelist.net/images/characters/11/515853.jpg",
+  },
+  {
+    id: 52,
+    name: "Juraki Itou",
+    team: "Y",
+    rank: 260,
+    image: "https://cdn.myanimelist.net/images/characters/2/515854.jpg",
+  },
+  {
+    id: 53,
+    name: "Fuuma Rokkaku",
+    team: "Y",
+    rank: 259,
+    image: "https://cdn.myanimelist.net/images/characters/8/515855.jpg",
+  },
+  {
+    id: 54,
+    name: "Shinichi Konan",
+    team: "Y",
+    rank: 264,
+    image: "https://cdn.myanimelist.net/images/characters/14/515845.jpg",
+  },
+  {
+    id: 55,
+    name: "Iori Satou",
+    team: "Y",
+    rank: 263,
+    image: "https://cdn.myanimelist.net/images/characters/12/515846.jpg",
+  },
+  {
+    id: 56,
+    name: "Tobio Madoka",
+    team: "Y",
+    rank: 262,
+    image: "https://cdn.myanimelist.net/images/characters/11/515851.jpg",
+  },
 ];
 
 export const teams = [
