@@ -1,6 +1,12 @@
-const PlayerCard = ({ name, image, rank }) => {
+const PlayerCard = ({ name, image, rank, qualed, topScorer }) => {
   return (
-    <div className="flex flex-col gap-1 text-center justify-center items-center cursor-pointer p-8 bg-zinc-100 group rounded-md">
+    <div
+      className={
+        qualed || topScorer === name
+          ? "flex flex-col gap-1 text-center justify-center items-center cursor-pointer p-8 bg-green-100 group rounded-md"
+          : "flex flex-col gap-1 text-center justify-center items-center cursor-pointer p-8 bg-red-100 group rounded-md"
+      }
+    >
       <div className="overflow-hidden rounded-full shadow-2xl">
         <img
           src={image}

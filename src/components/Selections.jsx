@@ -2,6 +2,7 @@ import React from "react";
 
 import { teams, players } from "../db/db";
 import Leaderboard from "./Leaderboard";
+import TopScorer from "./TopScorer";
 
 const Selections = ({ children, selection }) => {
   const selectionTeams = teams.map((team) => {
@@ -44,6 +45,7 @@ const Selections = ({ children, selection }) => {
           </p>
         </div>
         <Leaderboard selection={selection} />
+        <TopScorer selection={selection} />
       </div>
     </div>
   );

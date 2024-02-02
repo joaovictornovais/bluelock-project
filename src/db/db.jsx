@@ -428,7 +428,7 @@ export const teams = [
     loses: 1,
     draw: 2,
     points: 4,
-    topScorer: "Juinchi Wanima",
+    topScorer: "Junichi Wanima",
     qualed: false,
   },
   {

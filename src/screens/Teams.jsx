@@ -32,21 +32,6 @@ const Teams = () => {
               </div>
             </div>
           </div>
-          <div className="grid grid-cols-5 max-w-7xl mx-auto p-6 gap-4">
-            <div className="col-span-4">
-              <div className="grid grid-cols-3 gap-4">
-                {handleTeamsSelection("second").map((team) => (
-                  <TeamCard
-                    key={team.id}
-                    selection={team.selection}
-                    image={team.image}
-                    team={team.name}
-                  />
-                ))}
-              </div>
-            </div>
-            <Selections selection="second">Segunda Seleção</Selections>
-          </div>
         </div>
       </div>
     </main>

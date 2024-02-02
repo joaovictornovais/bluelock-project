@@ -2,13 +2,16 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import Header from "../components/Header";
 
-import { players as dbPlayers } from "../db/db";
+import { players as dbPlayers, teams as dbTeams } from "../db/db";
 import PlayerCard from "../components/PlayerCard";
 
 const Team = () => {
   const { team } = useParams();
 
   const players = dbPlayers.filter((playerTeam) => playerTeam.team === team);
+
+  const isQualed = dbTeams.find((tm) => tm.name === team).qualed;
+  const topScorer = dbTeams.find((tm) => tm.name === team).topScorer;
 
   const handleAverageRank = () => {
     const sum = players.reduce((a, b) => a + b.rank, 0);
@@ -35,6 +38,8 @@ const Team = () => {
                 name={player.name}
                 rank={player.rank}
                 image={player.image}
+                qualed={isQualed}
+                topScorer={topScorer}
               />
             ))}
           </div>
