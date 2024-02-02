@@ -30,6 +30,7 @@ const Selections = ({ children, selection }) => {
   return (
     <div className="flex flex-col gap-2">
       <h2 className="font-bold text-2xl lg:text-4xl">{children}</h2>
+      <div className="w-full h-[1px] bg-slate-200" />
       <div className="flex flex-col gap-4">
         <p>
           <span className="font-medium">{handlePlayersAmount()}</span> Jogadores
