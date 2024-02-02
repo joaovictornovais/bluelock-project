@@ -1,6 +1,7 @@
 import React from "react";
 
 import { teams, players } from "../db/db";
+import Leaderboard from "./Leaderboard";
 
 const Selections = ({ children, selection }) => {
   const selectionTeams = teams.map((team) => {
@@ -42,6 +43,7 @@ const Selections = ({ children, selection }) => {
             <span className="font-medium">{handlePlayersRanking()[1]}</span>{" "}
           </p>
         </div>
+        <Leaderboard selection={selection} />
       </div>
     </div>
   );

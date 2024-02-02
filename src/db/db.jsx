@@ -411,6 +411,12 @@ export const teams = [
     image:
       "https://i.pinimg.com/736x/0a/fc/10/0afc105e002089f3eccb926ddc19eb4f.jpg",
     selection: "first",
+    wins: 3,
+    loses: 1,
+    draw: 0,
+    points: 9,
+    topScorer: "Seishiro Nagi",
+    qualed: true,
   },
   {
     id: 2,
@@ -418,6 +424,12 @@ export const teams = [
     image:
       "https://metagalaxia.com.br/wp-content/uploads/2022/11/Blue-Lock-3.webp",
     selection: "first",
+    wins: 1,
+    loses: 1,
+    draw: 2,
+    points: 4,
+    topScorer: "Juinchi Wanima",
+    qualed: false,
   },
   {
     id: 3,
@@ -425,6 +437,12 @@ export const teams = [
     image:
       "https://inasianspaces.files.wordpress.com/2022/10/blue-lock-episode-2-team-x.png?w=1024",
     selection: "first",
+    wins: 1,
+    loses: 3,
+    draw: 0,
+    points: 3,
+    topScorer: "Shouei Baro",
+    qualed: false,
   },
   {
     id: 4,
@@ -432,6 +450,12 @@ export const teams = [
     image:
       "https://staticg.sportskeeda.com/editor/2022/11/a7871-16674654686318-1920.jpg",
     selection: "first",
+    wins: 1,
+    loses: 2,
+    draw: 1,
+    points: 4,
+    topScorer: "Ikki Niko",
+    qualed: false,
   },
   {
     id: 5,
@@ -439,6 +463,12 @@ export const teams = [
     image:
       "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtBNPWpRrMasIpWOFeqIXvhY9BAeeVllqR-0VPLtwGdbZlikeDD29CjN76fYWs-I04cgDAtwtWpkxOw-UOZdifnKvUgKogXvVKSMrHYHJ1-LuyrM6lVIAus5cDo85vg5XP7-P2-cthCJjtHSv-l_0dnOJTjb9niSrCf0IFWdawsZMuUJL7djF88_rx-Z6n/w1200-h630-p-k-no-nu/Os%20jogadores%20e%20times%20aprovados%20no%20Projeto%20Blue%20Lock.png",
     selection: "first",
+    wins: 2,
+    loses: 1,
+    draw: 1,
+    points: 7,
+    topScorer: "Rensuke Kunigami",
+    qualed: true,
   },
   {
     id: 6,
@@ -448,7 +478,7 @@ export const teams = [
     selection: "second",
   },
   {
-    id: 6,
+    id: 7,
     name: "Vermelho",
     image: "https://pbs.twimg.com/media/Fnk83LKaYAouAaL.jpg:large",
     selection: "second",
