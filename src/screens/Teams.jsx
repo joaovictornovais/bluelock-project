@@ -23,7 +23,6 @@ const Teams = () => {
               <div className="grid grid-cols-3 gap-4 ">
                 {handleTeamsSelection("first").map((team) => (
                   <TeamCard
-                    onClick={() => handleNavigateTeamPage(team.name)}
                     key={team.id}
                     selection={team.selection}
                     image={team.image}
@@ -38,7 +37,6 @@ const Teams = () => {
               <div className="grid grid-cols-3 gap-4">
                 {handleTeamsSelection("second").map((team) => (
                   <TeamCard
-                    onClick={() => handleNavigateTeamPage(team.name)}
                     key={team.id}
                     selection={team.selection}
                     image={team.image}
