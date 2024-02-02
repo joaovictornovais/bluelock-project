@@ -87,14 +87,6 @@ export const players = [
       "https://i.pinimg.com/originals/21/ae/9a/21ae9a5599b8a54dbbeea038df8b3a6c.jpg",
   },
   {
-    id: 12,
-    name: "Ryosuke Kira",
-    team: "Z",
-    rank: 289,
-    image:
-      "https://i.pinimg.com/736x/b2/8b/c5/b28bc50502d0763d98eaf28f8aff693f.jpg",
-  },
-  {
     id: 13,
     name: "Zantetsu Tsurugi",
     team: "V",

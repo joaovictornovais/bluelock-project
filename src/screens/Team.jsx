@@ -28,7 +28,7 @@ const Team = () => {
               <span className="text-blue-700">{handleAverageRank()}</span>
             </h2>
           </div>
-          <div className="grid grid-cols-4 gap-8">
+          <div className="grid grid-cols-2 gap-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5">
             {players.map((player) => (
               <PlayerCard
                 key={player.id}

@@ -5,7 +5,7 @@ const PlayerCard = ({ name, image, rank }) => {
         <img
           src={image}
           alt={name}
-          className="rounded-full w-32 h-32 object-cover group-hover:scale-110 transition-all"
+          className="rounded-full w-24 h-24 object-cover group-hover:scale-110 transition-all"
         />
       </div>
       <p className="font-semibold group-hover:text-blue-700">{name}</p>
