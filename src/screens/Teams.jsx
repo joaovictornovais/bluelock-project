@@ -17,7 +17,7 @@ const Teams = () => {
       <Header />
       <div className="pt-[80px]">
         <div className="flex flex-col gap-4">
-          <div className="grid grid-cols-6 max-w-7xl mx-auto p-6 gap-4">
+          <div className="flex flex-col lg:grid grid-cols-6 max-w-7xl mx-auto p-6 gap-4">
             <Selections selection="first">Primeira Seleção</Selections>
             <div className="col-span-5">
               <div className="grid grid-cols-3 gap-4 ">
