@@ -39,7 +39,7 @@ const Login = () => {
     <section className="flex flex-col items-center justify-center h-screen bg-zinc-100">
       <form className="flex flex-col gap-4 items-center p-4 text-center">
         <img
-          src="src/assets/logo-bluelock.png"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Blue_Lock_Logo.png/640px-Blue_Lock_Logo.png"
           alt="Logo BlueLock"
           className="max-w-[300px]"
         />
